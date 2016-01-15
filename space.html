@@ -75,8 +75,8 @@ var svg = spacetime.append("svg")
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var radii = {
-          "sun": radius / 8,
-          "earthOrbit": radius / 4,
+          "sun": radius / 9,
+          "earthOrbit": radius / 3,
           "earth": radius / 24,
           "moonOrbit": radius / 12,
           "moon": radius / 60
@@ -239,9 +239,9 @@ function arcTween(arc) {
 function fields() {
   var now = new Date;
   return [
-    {index: .44, text: formatMinute(now), value: now.getMinutes() / 60},
-    {index: .38, text: formatHour(now),   value: now.getHours() / 24},
-    {index: .08, text: formatDay(now),    value: now.getDay() / 7},
+    {index: .165, text: formatMinute(now), value: now.getMinutes() / 60},
+    {index: .12, text: formatHour(now),   value: now.getHours() / 24},
+    {index: .07, text: formatDay(now),    value: now.getDay() / 7},
     {index: .03, text: formatDate(now),   value: (now.getDate() - 1) / (32 - new Date(now.getYear(), now.getMonth(), 32).getDate())},
   ];
 }
