@@ -1,0 +1,189 @@
+{
+ "name": "TFA MS",
+ "children": [
+   {"name": "SAMS",
+    "children": [
+        {"name": "Progress Known",
+          "children": [
+            { "name": "Goal: 100% PK",
+              "children": [
+                { "name": "42% PK",
+                  "children": [
+                    {"name": "Behind Pace", "size": 1000}
+                ]}
+            ]}
+        ]},
+        {"name": "Benchmark Achieved",
+          "children": [
+            { "name": "Goal: 85% PK",
+              "children": [
+                { "name": "39% PK",
+                  "children": [
+                    {"name": "Behind Pace", "size": 1000}
+                ]}
+            ]}
+        ]}
+    ]},
+    {"name": "End of Year Survey",
+     "children": [
+         {"name": "CSI",
+           "children": [
+             { "name": "Goal: 28% Net CSI",
+               "children": [
+                 { "name": "21% Net CSI",
+                   "children": [
+                     {"name": "On Pace", "size": 1000}
+                 ]}
+             ]}
+         ]},
+         {"name": "CALI",
+           "children": [
+             { "name": "Goal: 61% Net CALI",
+               "children": [
+                 { "name": "58% Net CALI",
+                   "children": [
+                     {"name": "On Pace", "size": 1000}
+                 ]}
+             ]}
+         ]},
+         {"name": "Net Promoter Score",
+           "children": [
+             { "name": "Goal: Undetermined",
+               "children": [
+                 { "name": "Undetermined",
+                   "children": [
+                     {"name": "Undetermined", "size": 1000}
+                 ]}
+             ]}
+         ]}
+     ]},
+     {"name": "Alumni Survey",
+      "children": [
+          {"name": "Alumni CALI",
+            "children": [
+              { "name": "Goal: +10% Net",
+                "children": [
+                  { "name": "+2% Net",
+                    "children": [
+                      {"name": "Behind Pace", "size": 1000}
+                  ]}
+              ]}
+          ]},
+          {"name": "Alumni Net Promoter",
+            "children": [
+              { "name": "Goal: Undetermined",
+                "children": [
+                  { "name": "Undetermined",
+                    "children": [
+                      {"name": "Undetermined", "size": 1000}
+                  ]}
+              ]}
+          ]}
+      ]},
+      {"name": "TFACT",
+       "children": [
+           {"name": "Number of Alum",
+             "children": [
+               { "name": "Goal: 40% Retained",
+                 "children": [
+                   { "name": "24% Likely+",
+                     "children": [
+                       {"name": "Behind Pace", "size": 1000}
+                   ]}
+               ]}
+           ]},
+           {"name": "Alum Engagement",
+             "children": [
+               { "name": "Goal: 85% Eng.",
+                 "children": [
+                   { "name": "30% Eng.",
+                     "children": [
+                       {"name": "Behind Pace", "size": 1000}
+                   ]}
+               ]}
+           ]},
+           {"name": "School Leaders",
+             "children": [
+               { "name": "Goal: +8 Aspiring",
+                 "children": [
+                   { "name": "+1",
+                     "children": [
+                       {"name": "Behind Pace", "size": 1000}
+                   ]}
+               ]},
+               { "name": "Goal: +2 New SLs",
+                 "children": [
+                   { "name": "+0",
+                     "children": [
+                       {"name": "Behind Pace", "size": 1000}
+                   ]}
+               ]}
+           ]}
+       ]},
+       {"name": "Alum Team",
+        "children": [
+            {"name": "Alum Fellowship",
+              "children": [
+                { "name": "Goal: >3 MSTAR",
+                  "children": [
+                    { "name": "Undetermined",
+                      "children": [
+                        {"name": "Undetermined", "size": 1000}
+                    ]}
+                ]}
+            ]}
+        ]},
+        {"name": "Recruitment",
+         "children": [
+           {"name": "Incoming Corps Members",
+             "children": [
+               { "name": "Goal: Native Mississippians",
+                 "children": [
+                   { "name": "Undetermined",
+                     "children": [
+                       {"name": "Undetermined", "size": 1000}
+                   ]}
+               ]},
+               { "name": "Goal: CMs of Color",
+                 "children": [
+                   { "name": "Undetermined",
+                     "children": [
+                       {"name": "Undetermined", "size": 1000}
+                   ]}
+               ]},
+               { "name": "Goal: Incoming CMs",
+                 "children": [
+                   { "name": "Undetermined",
+                     "children": [
+                       {"name": "Undetermined", "size": 1000}
+                   ]}
+               ]}
+           ]}
+        ]},
+        {"name": "Development Team",
+         "children": [
+           {"name": "Cash In + Committed",
+             "children": [
+               { "name": "Goal: $7.6 Million",
+                 "children": [
+                   { "name": "$7.3 Million",
+                     "children": [
+                       {"name": "On Pace", "size": 3000}
+                   ]}
+               ]}
+            ]}
+        ]},
+        {"name": "Great Places to Work",
+         "children": [
+           {"name": "Team Culture",
+             "children": [
+               { "name": "Goal: Undetermined",
+                 "children": [
+                   { "name": "Undetermined",
+                     "children": [
+                       {"name": "Undetermined", "size": 1000}
+                   ]}
+               ]}
+            ]}
+        ]}
+  ]}
