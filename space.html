@@ -47,13 +47,8 @@ var formatMinute = d3.time.format("%-M minutes"),
     formatDate = function(d) { d = d.getDate(); switch (10 <= d && d <= 19 ? 10 : d % 10) { case 1: d += "st"; break; case 2: d += "nd"; break; case 3: d += "rd"; break; default: d += "th"; break; } return d; };
 
 var color = d3.scale.linear()
-    .range(["hsl(0, 100%, 50%, 1)", "hsl(44, 100%, 50%, 1)"])
+    .range(["hsl(44, 100%, 50%, 1)", "hsl(0, 100%, 50%, 1)"])
     .interpolate(function(a, b) { var i = d3.interpolateString(a, b); return function(t) { return d3.hsl(i(t)); }; });
-
-var colorouteredge = d3.scale.linear()
-    .range(["hsl(241, 100%, 31%, 1)", "hsl(276, 100%, 31%, 1)"])
-    .interpolate(function(a, b) { var i = d3.interpolateString(a, b); return function(t) { return d3.hsl(i(t)); }; });
-
 
 var arcBody = d3.svg.arc()
     .startAngle(0)
@@ -75,11 +70,11 @@ var svg = spacetime.append("svg")
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var radii = {
-          "sun": radius / 9,
-          "earthOrbit": radius / 3,
-          "earth": radius / 24,
+          "sun": radius / 5.2,
+          "earthOrbit": radius / 3.05,
+          "earth": radius / 20,
           "moonOrbit": radius / 12,
-          "moon": radius / 60
+          "moon": radius / 50
           };
 
 // Sun
@@ -239,8 +234,8 @@ function arcTween(arc) {
 function fields() {
   var now = new Date;
   return [
-    {index: .165, text: formatMinute(now), value: now.getMinutes() / 60},
-    {index: .12, text: formatHour(now),   value: now.getHours() / 24},
+    {index: .15, text: formatMinute(now), value: now.getMinutes() / 60},
+    {index: .11, text: formatHour(now),   value: now.getHours() / 24},
     {index: .07, text: formatDay(now),    value: now.getDay() / 7},
     {index: .03, text: formatDate(now),   value: (now.getDate() - 1) / (32 - new Date(now.getYear(), now.getMonth(), 32).getDate())},
   ];
