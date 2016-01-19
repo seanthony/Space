@@ -9,7 +9,7 @@
               "children": [
                 { "name": "42% PK",
                   "children": [
-                    {"name": "Behind Pace", "size": 1000}
+                    {"name": "Behind Pace", "size": 10}
                 ]}
             ]}
         ]},
@@ -19,7 +19,7 @@
               "children": [
                 { "name": "39% PK",
                   "children": [
-                    {"name": "Behind Pace", "size": 1000}
+                    {"name": "Behind Pace", "size": 10}
                 ]}
             ]}
         ]}
@@ -32,7 +32,7 @@
                "children": [
                  { "name": "21% Net CSI",
                    "children": [
-                     {"name": "On Pace", "size": 1000}
+                     {"name": "On Pace", "size": 10}
                  ]}
              ]}
          ]},
@@ -42,7 +42,7 @@
                "children": [
                  { "name": "58% Net CALI",
                    "children": [
-                     {"name": "On Pace", "size": 1000}
+                     {"name": "On Pace", "size": 10}
                  ]}
              ]}
          ]},
@@ -52,7 +52,7 @@
                "children": [
                  { "name": "Undetermined",
                    "children": [
-                     {"name": "Undetermined", "size": 1000}
+                     {"name": "Undetermined", "size": 10}
                  ]}
              ]}
          ]}
@@ -65,7 +65,7 @@
                 "children": [
                   { "name": "+2% Net",
                     "children": [
-                      {"name": "Behind Pace", "size": 1000}
+                      {"name": "Behind Pace", "size": 10}
                   ]}
               ]}
           ]},
@@ -75,7 +75,7 @@
                 "children": [
                   { "name": "Undetermined",
                     "children": [
-                      {"name": "Undetermined", "size": 1000}
+                      {"name": "Undetermined", "size": 10}
                   ]}
               ]}
           ]}
@@ -88,7 +88,7 @@
                  "children": [
                    { "name": "24% Likely+",
                      "children": [
-                       {"name": "Behind Pace", "size": 1000}
+                       {"name": "Behind Pace", "size": 10}
                    ]}
                ]}
            ]},
@@ -98,7 +98,7 @@
                  "children": [
                    { "name": "30% Eng.",
                      "children": [
-                       {"name": "Behind Pace", "size": 1000}
+                       {"name": "Behind Pace", "size": 10}
                    ]}
                ]}
            ]},
@@ -108,14 +108,14 @@
                  "children": [
                    { "name": "+1",
                      "children": [
-                       {"name": "Behind Pace", "size": 1000}
+                       {"name": "Behind Pace", "size": 10}
                    ]}
                ]},
                { "name": "Goal: +2 New SLs",
                  "children": [
                    { "name": "+0",
                      "children": [
-                       {"name": "Behind Pace", "size": 1000}
+                       {"name": "Behind Pace", "size": 10}
                    ]}
                ]}
            ]}
@@ -128,7 +128,7 @@
                   "children": [
                     { "name": "Undetermined",
                       "children": [
-                        {"name": "Undetermined", "size": 1000}
+                        {"name": "Undetermined", "size": 10}
                     ]}
                 ]}
             ]}
@@ -141,21 +141,21 @@
                  "children": [
                    { "name": "Undetermined",
                      "children": [
-                       {"name": "Undetermined", "size": 1000}
+                       {"name": "Undetermined", "size": 10}
                    ]}
                ]},
                { "name": "Goal: CMs of Color",
                  "children": [
                    { "name": "Undetermined",
                      "children": [
-                       {"name": "Undetermined", "size": 1000}
+                       {"name": "Undetermined", "size": 10}
                    ]}
                ]},
                { "name": "Goal: Incoming CMs",
                  "children": [
                    { "name": "Undetermined",
                      "children": [
-                       {"name": "Undetermined", "size": 1000}
+                       {"name": "Undetermined", "size": 10}
                    ]}
                ]}
            ]}
@@ -168,7 +168,7 @@
                  "children": [
                    { "name": "$7.3 Million",
                      "children": [
-                       {"name": "On Pace", "size": 3000}
+                       {"name": "On Pace", "size": 30}
                    ]}
                ]}
             ]}
@@ -177,11 +177,11 @@
          "children": [
            {"name": "Team Culture",
              "children": [
-               { "name": "Goal: Undetermined",
+               { "name": "Goal: Staff Culture",
                  "children": [
                    { "name": "Undetermined",
                      "children": [
-                       {"name": "Undetermined", "size": 1000}
+                       {"name": "Undetermined", "size": 10}
                    ]}
                ]}
             ]}
