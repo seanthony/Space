@@ -1,8 +1,8 @@
 
 var now = d3.time.year.floor(new Date());
 var space = d3.select('body');
-var width = 800,
-    height = 600,
+var width = 890
+    height = 800,
     radius = Math.min(width, height),
     spacing = 0.035;
 var formatMinute = d3.time.format("%-M minutes"),
